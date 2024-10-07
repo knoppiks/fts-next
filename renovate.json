@@ -32,6 +32,13 @@
       "registryUrls": [
         "https://maven.pkg.github.com/UMEssen/DeidentiFHIR"
       ]
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["valkey/valkey"],
+      "datasource": "github-releases",
+      "depName": "valkey-io/valkey",
+      "extractVersion": "^(?<version>[^-]+)(-.+)?$"
     }
   ],
   "hostRules": [
