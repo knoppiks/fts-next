@@ -8,7 +8,7 @@ import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 
 public class BaseIT {
-  // renovate: datasource=github-releases depName=valkey-io/valkey
+  // renovate: datasource=docker depName=valkey/valkey
   private static final String VALKEY_VERSION = "8.0.0";
 
   protected static final MockServerClient gics = onRandomPort();

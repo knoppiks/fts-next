@@ -36,8 +36,7 @@
     {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["valkey/valkey"],
-      "datasource": "github-releases",
-      "depName": "valkey-io/valkey",
+      "changelogUrl": "https://github.com/valkey-io/valkey",
       "extractVersion": "^(?<version>[^-]+)(-.+)?$"
     }
   ],
