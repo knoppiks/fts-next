@@ -42,10 +42,6 @@
   ],
   "hostRules": [
     {
-      "matchHost": "github.com",
-      "token": "{{ secrets.GITHUB_COM_TOKEN }}"
-    },
-    {
       "hostType": "docker",
       "matchHost": "creg.smith.care",
       "username": "{{ secrets.SMITH_CREG_USERNAME }}",
