@@ -40,6 +40,12 @@
       "extractVersion": "^(?<version>[^-]+)(-.+)?$"
     }
   ],
+  "hostRules": [
+    {
+      "matchHost": "github.com",
+      "token": "{{ secrets.GITHUB_COM_TOKEN }}"
+    }
+  ],
   "customManagers": [
     {
       "customType": "regex",
